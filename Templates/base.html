@@ -1,0 +1,37 @@
+{% load static %}
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+</head>
+<!--<link rel="stylesheet" href="{% static 'style.css' %}">-->
+<body>
+
+<!--<div class="container-fluid">-->
+<!--    <div class="row">-->
+<!--        <div class="col-md-6">-->
+<!--            <div class="banner">-->
+<!--                <div class="banner-text">-->
+<!--                    <h1>ToDO</h1>-->
+<!--                </div>-->
+<!--            </div>-->
+
+<!--        </div>-->
+<!--    </div>-->
+
+<!--</div>-->
+<!-- Image and text -->
+<nav class="navbar navbar-light" style="background-color: #e3f2fd;">
+  <a class="navbar-brand" href="#">
+    <img src="{% static 'images/img-01.png' %}" width="30" height="30" class="d-inline-block align-top" alt="">
+    TODO
+  </a>
+</nav>
+{% block content %}
+
+{% endblock %}
+</body>
+</html>
